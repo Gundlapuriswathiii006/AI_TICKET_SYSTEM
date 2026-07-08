@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "MVJSzv28Lv3ILlpmUpphN"
+uri = "file://ai-ticket-management-frontend.zip"
+type = "unspecified"
+title = "ai-ticket-management-frontend.zip"

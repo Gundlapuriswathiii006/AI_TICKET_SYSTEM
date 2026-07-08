@@ -1,0 +1,44 @@
+⠙[1G[0K
+> ai-ticket-management-frontend@0.1.0 dev
+> vite
+
+⠙[1G[0K/home/runner/workspace/node_modules/rollup/dist/native.js:121
+		throw new Error(
+		      ^
+
+Error: Cannot find module @rollup/rollup-linux-x64-gnu. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+    at requireWithFriendlyError [90m(/home/runner/workspace/[39mnode_modules/[4mrollup[24m/dist/native.js:121:9[90m)[39m
+    at Object.<anonymous> [90m(/home/runner/workspace/[39mnode_modules/[4mrollup[24m/dist/native.js:130:76[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1761:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1893:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1481:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1300:12)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:328:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)[39m
+[90m    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:339:3)[39m
+[90m    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:242:7)[39m {
+  [cause]: Error: Cannot find module '@rollup/rollup-linux-x64-gnu'
+  Require stack:
+  - /home/runner/workspace/node_modules/rollup/dist/native.js
+  [90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)[39m
+  [90m    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)[39m
+  [90m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)[39m
+  [90m    at Module._load (node:internal/modules/cjs/loader:1227:37)[39m
+  [90m    at TracingChannel.traceSync (node:diagnostics_channel:328:14)[39m
+  [90m    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)[39m
+  [90m    at Module.require (node:internal/modules/cjs/loader:1504:12)[39m
+  [90m    at require (node:internal/modules/helpers:152:16)[39m
+      at requireWithFriendlyError [90m(/home/runner/workspace/[39mnode_modules/[4mrollup[24m/dist/native.js:103:10[90m)[39m
+      at Object.<anonymous> [90m(/home/runner/workspace/[39mnode_modules/[4mrollup[24m/dist/native.js:130:76[90m)[39m {
+    code: [32m'MODULE_NOT_FOUND'[39m,
+    requireStack: [ [32m'/home/runner/workspace/node_modules/rollup/dist/native.js'[39m ]
+  }
+}
+
+Node.js v24.13.0
+⠙[1G[0K[1mnpm[22m [96mnotice[39m
+[1mnpm[22m [96mnotice[39m New [33mminor[39m version of npm available! [33m11.6.2[39m -> [34m11.18.0[39m
+[1mnpm[22m [96mnotice[39m Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.18.0[39m
+[1mnpm[22m [96mnotice[39m To update run: [4mnpm install -g npm@11.18.0[24m
+[1mnpm[22m [96mnotice[39m
+⠙[1G[0K
